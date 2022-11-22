@@ -34,9 +34,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
     //click Reset button reload the page!
     const btnReset = document.querySelector('#btnReset');
-    const btnRestart=document.querySelector('#btnRestart')
+    const btnRestart = document.querySelector('#btnRestart')
     btnReset.addEventListener('click', () => location.reload());
-    btnRestart.addEventListener('click',()=>location.reload());
+    btnRestart.addEventListener('click', () => location.reload());
 
     // quizArray QUESTIONS & ANSWERS
     // q = QUESTION, o = OPTIONS, a = CORRECT ANSWER
